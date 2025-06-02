@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BACKEND_URL = 'https://instock-a028c-default-rtdb.firebaseio.com'
+const BACKEND_URL = ''//Your firebase URL Here 
 
 
 export function storeSite(site, user) {
