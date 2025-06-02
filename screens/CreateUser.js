@@ -4,7 +4,6 @@ import { createUser } from "../util/auth";
 import { useContext } from "react";
 import { AuthContext } from "../store/auth-context";
 
-
 function CreateUser(){
     const navigation = useNavigation();
 

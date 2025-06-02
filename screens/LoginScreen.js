@@ -5,6 +5,7 @@ import { Alert } from "react-native";
 import { useContext } from "react";
 import { AuthContext } from "../store/auth-context";
 
+
 function LoginScreen(){
     const navigation = useNavigation();
 

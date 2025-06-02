@@ -4,7 +4,6 @@ import { StackActions } from "@react-navigation/native";
 import { AuthContext } from "../store/auth-context";
 import { useContext } from "react";
 
-
 function AddSite({navigation}) {
     const authCtx = useContext(AuthContext)
 

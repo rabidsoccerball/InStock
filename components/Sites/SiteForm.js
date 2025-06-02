@@ -3,7 +3,6 @@ import { useCallback, useState } from "react";
 import Button from "../ui/Button";
 import { Site } from "../../models/site";
 
-
 function SiteForm({ onCreateSite }) {
     const [enteredTitle, setEnteredTitle] = useState('');
     const [pickedSite, setPickedSite] = useState();

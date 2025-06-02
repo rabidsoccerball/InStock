@@ -2,7 +2,6 @@ import axios from 'axios'
 
 const BACKEND_URL = ''//Your firebase URL Here 
 
-
 export function storeSite(site, user) {
     axios.post(
         BACKEND_URL + `/${user}/sites.json`,

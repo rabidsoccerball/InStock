@@ -4,6 +4,7 @@ import { useNavigation } from '@react-navigation/native'
 import AuthForm from './AuthForm';
 import Button from '../ui/Button';
 
+
 function AuthContent({ isLogin, onAuthenticate }) {
     const navigation = useNavigation();
 

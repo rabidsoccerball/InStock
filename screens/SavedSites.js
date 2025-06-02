@@ -5,7 +5,6 @@ import { fetchSites } from "../util/http"
 import { AuthContext } from "../store/auth-context";
 import { useContext } from "react";
 
-
 function SavedSites({route}) {
     const [loadedSites, setLoadedSites] = useState([])
     

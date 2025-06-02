@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import { StyleSheet, Text, View } from 'react-native';
 import SavedSites from './screens/SavedSites';
 import AddSites from './screens/AddSites'
 import SpecialButton from './components/ui/SpecialButton';

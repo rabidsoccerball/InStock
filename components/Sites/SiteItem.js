@@ -6,6 +6,7 @@ import { useContext, useState, useEffect } from "react";
 import { AuthContext } from "../../store/auth-context";
 import cio from 'cheerio-without-node-native';
 
+
 function SiteItem({ Site }) {
     const [stock, setStock] = useState(null);
 

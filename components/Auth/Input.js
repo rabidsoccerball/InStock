@@ -1,5 +1,6 @@
 import { View, Text, TextInput, StyleSheet } from 'react-native';
 
+
 function Input({
   label,
   keyboardType,
